@@ -1,0 +1,64 @@
+#flag {
+    text-align: center;
+}
+#red-1 {
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+#white-1 {
+    background-color: #fdfffc;
+    text-align: center;
+    padding: 24px;
+}
+#blue-1 {
+    background-color: rgb(36, 63, 138);
+    text-align: center;
+    padding: 24px;
+    color: white;
+}
+
+#calmness {
+    text-align: center;
+}
+#green-1 {
+    background-color: rgb(0, 53, 64);
+    text-align: center;
+    color: #ffffff;
+    padding: 24px;
+}
+#green-2 {
+    background-color: #b3efb2;
+    text-align: center;
+    padding: 24px;
+    color: #000000;
+}
+#blue-2 {
+    background-color: #01baef;
+    text-align: center;
+    padding: 24px;
+    color: #000000;
+}
+
+#evergreen {
+    text-align: center;
+}
+#ever-1 {
+    background-color: #19381f;
+    text-align: center;
+    color: #ffffff;
+    padding: 24px;
+}
+#ever-2 {
+    background-color: #58ae8a;
+    text-align: center;
+    padding: 24px;
+    color: #000000;
+}
+#ever-3 {
+    background-color: #91cb3e;
+    text-align: center;
+    padding: 24px;
+    color: #000000;
+}
