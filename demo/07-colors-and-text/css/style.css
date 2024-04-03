@@ -1,0 +1,46 @@
+#first-paragraph {
+    color: blue;
+    background-color: #046d8d;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph {
+    color: #00ff22;
+    background-color: #000000;
+    font-size: 20px;
+    text-decoration: wavy underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: #dd284c;
+}
+
+#span1 {
+    color: #7700ff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #98f504;
+}
+
+#span2 {
+    font-style: italic;
+    text-decoration: line-through;
+    background-color: #30b4e0;
+}
+
+#span3 {
+    text-shadow: #98f504;
+    text-transform: uppercase;
+    text-indent: 12px;
+    background-color: chartreuse;
+}
+
+#span4 {
+    font-style: bold;
+    text-decoration: solid;
+    font-stretch: extra-expanded;
+    background-color: #dd284c;
+
+}
