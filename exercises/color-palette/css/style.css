@@ -1,64 +1,79 @@
 #flag {
     text-align: center;
+    font-family: quintessential;
+    font-size: 40px;
 }
 #red-1 {
     background-color: red;
     text-align: center;
     color: white;
     padding: 24px;
+    font-family: kalam;
 }
 #white-1 {
     background-color: #fdfffc;
     text-align: center;
     padding: 24px;
+    font-family: kalam;
 }
 #blue-1 {
     background-color: rgb(36, 63, 138);
     text-align: center;
     padding: 24px;
     color: white;
+    font-family: kalam;
 }
 
 #calmness {
     text-align: center;
+    font-family: quintessential;
+    font-size: 40px;
 }
 #green-1 {
     background-color: rgb(0, 53, 64);
     text-align: center;
     color: #ffffff;
     padding: 24px;
+    font-family: kalam;
 }
 #green-2 {
     background-color: #b3efb2;
     text-align: center;
     padding: 24px;
     color: #000000;
+    font-family: kalam;
 }
 #blue-2 {
     background-color: #01baef;
     text-align: center;
     padding: 24px;
     color: #000000;
+    font-family: kalam;
 }
 
 #evergreen {
     text-align: center;
+    font-size: 40px;
+    font-family: quintessential;
 }
 #ever-1 {
     background-color: #19381f;
     text-align: center;
     color: #ffffff;
     padding: 24px;
+    font-family: kalam;
 }
 #ever-2 {
     background-color: #58ae8a;
     text-align: center;
     padding: 24px;
     color: #000000;
+    font-family: kalam;
 }
 #ever-3 {
     background-color: #91cb3e;
     text-align: center;
     padding: 24px;
     color: #000000;
+    font-family: kalam;
 }
