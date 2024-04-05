@@ -1,0 +1,17 @@
+div {
+    border: 6px dashed blueviolet;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+p {
+    border: 20px dotted aquamarine;
+    margin: 60px;
+    padding: 16px;
+    background-color: #7a7ae6;
+    border-radius: 60px;
+}
+body {
+    background-color: blanchedalmond;
+}
