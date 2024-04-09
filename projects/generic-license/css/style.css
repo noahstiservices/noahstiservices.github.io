@@ -1,0 +1,107 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#content {
+    border: solid yellowgreen;
+    margin: 4px;
+}
+
+#license {
+    width: 700px;
+    border: 3px solid red;
+    border-radius: 12px;
+    margin: 0%;
+}
+
+h1 {
+    margin: 0px;
+    padding: 12px;
+    border: solid black;
+}
+
+#left-side {
+    text-align: center;
+    display: inline-block;
+    width: 66%;
+}
+
+h4 {
+    background-color: blue;
+    padding: 12px;
+    color: white;
+}
+
+#id-and-expiration div {
+    border: solid green;
+    display: inline-block;
+    padding: 8px;
+}
+
+#address {
+    border: solid crimson;
+    font-weight: bold;
+    text-align: left;
+    width: 44%;
+    padding: 8px;
+}
+
+#personal-info {
+    display: inline-block;
+    border: solid darkblue;
+    display: flex;
+    margin: 0%;
+}
+
+#small-pic img {
+    border: solid magenta;
+    display: inline-block;
+    width: 98%;
+    opacity: 30%;
+    margin: 0%;
+}
+
+#data-left {
+    border: solid blueviolet;
+    display: inline-block;
+    padding: 8px;
+}
+
+#data-right {
+    border: solid greenyellow;
+    display: inline-block;
+    padding: 8px;
+    margin: 12px;
+}
+
+#signature {
+    border: solid firebrick;
+    text-align: center;
+    padding: 8px;
+    margin: 24px;
+}
+
+#right-side, #donor-1 {
+    border: solid white;
+    display: inline-block;
+    width: 210px;
+    text-align: center;
+    height: 350px;
+    margin: 8px;
+}
+
+#real-id {
+    display: inline-block;
+    color: rgb(228, 213, 213);
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+#donor {
+    display: inline-block;
+    color: red;
+}
