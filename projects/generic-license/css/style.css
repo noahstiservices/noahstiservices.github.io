@@ -49,12 +49,16 @@ h4 {
     color: skyblue;
 }
 
+#id-and-expiration span {
+    color: #0000bb;
+}
+
 #address {
     font-weight: bold;
     text-align: left;
     margin-left: 8px;
     font-size: 20px;
-    color: #0909f1;
+    color: #0000bb;
 }
 
 #personal-info {
@@ -82,10 +86,18 @@ h4 {
     color: skyblue;
 }
 
+#data-left span {
+    color: #0000bb;
+}
+
 #data-right {
     display: inline-block;
     padding: 8px;
     color: skyblue;
+}
+
+#data-right span {
+    color: #0000bb;
 }
 
 #signature {
@@ -118,6 +130,6 @@ h4 {
 
 #donor {
     display: inline-block;
-    color: blue;
+    color: #0000bb;
     font-size: 16px;
 }
