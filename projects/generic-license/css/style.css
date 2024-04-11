@@ -11,7 +11,7 @@
     margin: 20px;
     background: linear-gradient(45deg, #f067f07e, #7070f1f5);
     border-radius: 16px;
-    padding: 8px;
+    padding: 16px;
 }
 
 #license {
@@ -45,10 +45,9 @@ h4 {
 #id-and-expiration div {
     display: inline-block;
     margin-right: 52px;
-    margin-left: 8px;
     padding: 4px;
     margin-bottom: 8px;
-    color: skyblue;
+    color: yellow;
 }
 
 #id-and-expiration span {
@@ -58,14 +57,12 @@ h4 {
 #address {
     font-weight: bold;
     text-align: left;
-    margin-left: 8px;
     font-size: 20px;
     color: #0000bb;
 }
 
 #personal-info {
     flex-direction: row;
-    margin-left: 4px;
 }
 
 #small-pic {
@@ -75,7 +72,6 @@ h4 {
 
 #small-pic img {
     width: 80px;
-    margin-left: 8px;
 }
 
 #data-fields {
@@ -85,7 +81,7 @@ h4 {
 #data-left {
     display: inline-block;
     padding: 8px;
-    color: skyblue;
+    color: yellow;
 }
 
 #data-left span {
@@ -95,7 +91,7 @@ h4 {
 #data-right {
     display: inline-block;
     padding: 8px;
-    color: skyblue;
+    color: yellow;
 }
 
 #data-right span {
@@ -122,7 +118,7 @@ h4 {
 
 #real-id {
     display: inline-block;
-    color: skyblue;
+    color: yellow;
     background-color: #a104a1;
     border-radius: 50%;
     font-size: 24px;
