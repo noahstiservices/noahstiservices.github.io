@@ -56,7 +56,20 @@ body {
 
 #image-column img {
     display: flex;
-    padding: 12px;
+    margin: 12px 0px;
+    /* border: solid darkmagenta 4px; */
 }
+
+#image-column-2 {
+    /* border: solid 4px darkgoldenrod; */
+}
+
+
+
+
+
+
+   
+    
 
 
