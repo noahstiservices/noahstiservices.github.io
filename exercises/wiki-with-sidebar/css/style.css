@@ -54,20 +54,23 @@ body {
     border-bottom: 2px solid black;
 }
 
-#image-column img {
+#image-column {
     display: flex;
-    margin: 12px 0px;
-    /* border: solid darkmagenta 4px; */
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #image-column-2 {
-    /* border: solid 4px darkgoldenrod; */
+    width: 100px;
 }
 
+#content-5 {
+    width: 100%;
+}
 
-
-
-
+#content-4 {
+    width: 100%;
+}
 
    
     
