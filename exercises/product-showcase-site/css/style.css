@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    text-align: center;
 }
 
 .border-1 {
@@ -21,7 +22,6 @@ body {
 
 .red-2 {
     width: 75%;
-    margin-left: 100px;
 }
 
 h3 {
@@ -30,12 +30,11 @@ h3 {
     padding: 12px;
 }
 
-h1 {
+.get {
     text-align: center;
     color: coral;
     background-color: black;
-    width: 35%;
-    margin-left: 220px;
+    margin-left: auto;
     padding: 12px;
 }
 
@@ -43,8 +42,8 @@ h1 {
     text-align: center;
     color: red;
     background-color: black;
-    width: 40%;
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 12px;
 }
 
@@ -54,14 +53,108 @@ h1 {
     padding: 12px;
     background-color: greenyellow;
     border-radius: 24px;
-    width: 20%;
-    margin-left: 260px;
+    margin-left: auto;
     margin-bottom: 0px;
 }
 
 .red-3 {
-    display: block;
+    display: inline-block;
     background-color: rgb(9, 0, 48);
-    margin-left: 100px;
-    margin-right: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-2 {
+    background-color: aqua;
+    padding: 24px 0px;
+}
+
+.border-3 {
+    background-color: black;
+    padding: 24px 0px;
+}
+
+.blue-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+    background-color: black;
+}
+
+.blue-2 {
+    display: inline-block;
+    width: 65%;
+    text-align: center;
+    padding: 12px;
+}
+
+.blue-3 {
+    display: inline-block;
+    background-color: rgb(9, 0, 48);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.get-1 {
+    background-color: coral;
+}
+
+.one {
+    color: red;
+    padding:12px;
+    background-color: black;
+}
+
+.grab {
+    color: aquamarine;
+    background-color: rgb(32, 12, 99);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.border-3 {
+    background-color: lightcoral;
+}
+
+.pear-1 {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+}
+
+.pear-2 {
+    width: 70%;
+}
+
+.pear {
+    background-color: black;
+}
+
+.pear-3 {
+    background-color: black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.get-2 {
+    color: lightseagreen;
+}
+
+.one-1 {
+    background-color: blueviolet;
+    padding: 8px;
+    color: rgb(9, 255, 0)
+}
+
+.grab-2 {
+    background-color: red;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+     
+.small-border {
+    background-color: darkred;
 }
