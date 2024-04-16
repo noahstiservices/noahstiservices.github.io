@@ -75,9 +75,12 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
+.metube-item .moments {
     aspect-ratio: 16 / 9;
     border-radius: 16px;
+    width: 500px;
+    max-width: 500px;
+    min-width: 100px;
 }
 
 .metube-item h4 {
@@ -102,4 +105,14 @@ body {
 
 .video-channel {
     margin-bottom: 4px;
+}
+
+.fa-solid {
+    margin-right: 8px;
+    color: blueviolet;
+}
+
+.fa-regular {
+    margin-right: 8px;
+    color: blueviolet
 }
