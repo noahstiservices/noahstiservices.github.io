@@ -19,6 +19,10 @@ body {
     color: rgb(238, 105, 238);
 }
 
+#me #one {
+    color: yellow;
+}
+
 #main-container {
     display: grid;
     grid-template-columns: 100px 1fr 2fr;
