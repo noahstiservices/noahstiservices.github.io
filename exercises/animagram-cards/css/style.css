@@ -1,0 +1,114 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-2 {
+    margin: 16px;
+}
+
+#animagram-card-1 {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 36px;
+    background-color: white;
+    margin-top: 18px;
+}
+
+.animagram-header {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name {
+    display: inline-block;
+    text-align: right;
+    font-size: 30px;
+}
+
+.logo {
+    display: inline-block;
+    text-align: left;
+}
+
+.profile-pic-container img {
+    border-radius: 50%;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#animagram-card-1 h2 {
+    text-align: center;
+}
+
+#animagram-card-1 p {
+    text-align: center;
+    padding: 0px 48px
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px; 
+    font-size: 24px;
+}
+
+#animagram-card-2 {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 36px;
+    background-color: white;
+}
+
+#animagram-card-2 h2 {
+    text-align: center;
+}
+
+#animagram-card-2 p {
+    text-align: center;
+    padding: 0px 48px
+}
+
+#animagram-card-3 {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 36px;
+    background-color: white;
+}
+
+#animagram-card-3 h2 {
+    text-align: center;
+}
+
+#animagram-card-3 p {
+    text-align: center;
+    padding: 0px 48px
+}
+
+#animagram-card-4 {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 36px;
+    background-color: white;
+}
+
+#animagram-card-4 h2 {
+    text-align: center;
+}
+
+#animagram-card-4 p {
+    text-align: center;
+    padding: 0px 48px
+}

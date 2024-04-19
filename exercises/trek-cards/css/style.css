@@ -12,6 +12,14 @@
     box-shadow: 4px 4px 8px #00000088;
 }
 
+#trek-card-1 a:hover {
+    background-color: transparent;
+    transition: 
+    background-color 0.5s
+    color 0.5s;
+    color: purple;
+}
+
 #trek-card-1 {
     width: 350px;
     background-color: #EFF7EB;
@@ -38,6 +46,15 @@
     color: #EFF7EB;
     font-size: 20px;
 }
+
+#trek-card-2 a:hover {
+    background-color: transparent;
+    transition: 
+    background-color 0.5s
+    color 0.5s;
+    color: purple;
+}
+
 
 #trek-card-2 {
     width: 350px;
@@ -66,6 +83,15 @@
     font-size: 20px;
 }
 
+#trek-card-3 a:hover {
+    background-color: transparent;
+    transition: 
+    background-color 0.5s
+    color 0.5s;
+    color: purple;
+}
+
+
 #trek-card-3 {
     width: 350px;
     background-color: #EFF7EB;
@@ -92,6 +118,15 @@
     color: #EFF7EB;
     font-size: 20px;
 }
+
+#trek-card-4 a:hover {
+    background-color: transparent;
+    transition: 
+        background-color 0.5s
+        color 0.5s;
+    color: purple;
+}
+
 
 #trek-card-4 {
     width: 350px;
