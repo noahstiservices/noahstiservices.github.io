@@ -1,0 +1,121 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-1 {
+    margin: 12px;
+    box-shadow: 4px 4px 8px #00000088;
+}
+
+#trek-card-1 {
+    width: 350px;
+    background-color: #EFF7EB;
+}
+
+#trek-card-1 h2 {
+    text-align: center;
+}
+
+#trek-card-1 img {
+    width: 100%;
+}
+
+#trek-card-1 p {
+    padding: 0px 24px;
+}
+
+#trek-card-1 a {
+    text-align: center;
+    background-color: green;
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+    color: #EFF7EB;
+    font-size: 20px;
+}
+
+#trek-card-2 {
+    width: 350px;
+    background-color: #EFF7EB;
+}
+
+#trek-card-2 h2 {
+    text-align: center;
+}
+
+#trek-card-2 img {
+    width: 100%;
+}
+
+#trek-card-2 p {
+    padding: 0px 24px;
+}
+
+#trek-card-2 a {
+    text-align: center;
+    background-color: green;
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+    color: #EFF7EB;
+    font-size: 20px;
+}
+
+#trek-card-3 {
+    width: 350px;
+    background-color: #EFF7EB;
+}
+
+#trek-card-3 h2 {
+    text-align: center;
+}
+
+#trek-card-3 img {
+    width: 100%;
+}
+
+#trek-card-3 p {
+    padding: 0px 24px;
+}
+
+#trek-card-3 a {
+    text-align: center;
+    background-color: green;
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+    color: #EFF7EB;
+    font-size: 20px;
+}
+
+#trek-card-4 {
+    width: 350px;
+    background-color: #EFF7EB;
+}
+
+#trek-card-4 h2 {
+    text-align: center;
+}
+
+#trek-card-4 img {
+    width: 100%;
+}
+
+#trek-card-4 p {
+    padding: 0px 24px;
+}
+
+#trek-card-4 a {
+    text-align: center;
+    background-color: green;
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+    color: #EFF7EB;
+    font-size: 20px;
+}
