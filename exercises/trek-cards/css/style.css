@@ -10,34 +10,23 @@
 .card-style-1 {
     margin: 12px;
     box-shadow: 4px 4px 8px #00000088;
-}
-
-#trek-card-1 a:hover {
-    background-color: transparent;
-    transition: 
-    background-color 0.5s
-    color 0.5s;
-    color: purple;
-}
-
-#trek-card-1 {
     width: 350px;
     background-color: #EFF7EB;
 }
 
-#trek-card-1 h2 {
+.card-style-1 h2 {
     text-align: center;
 }
 
-#trek-card-1 img {
+.card-style-1 img {
     width: 100%;
 }
 
-#trek-card-1 p {
+.card-style-1 p {
     padding: 0px 24px;
 }
 
-#trek-card-1 a {
+.card-style-1 a {
     text-align: center;
     background-color: green;
     display: block;
@@ -45,112 +34,12 @@
     text-decoration: none;
     color: #EFF7EB;
     font-size: 20px;
-}
-
-#trek-card-2 a:hover {
-    background-color: transparent;
     transition: 
-    background-color 0.5s
-    color 0.5s;
-    color: purple;
+    background-color 0.7s,
+    color 0.7s;
 }
 
-
-#trek-card-2 {
-    width: 350px;
-    background-color: #EFF7EB;
-}
-
-#trek-card-2 h2 {
-    text-align: center;
-}
-
-#trek-card-2 img {
-    width: 100%;
-}
-
-#trek-card-2 p {
-    padding: 0px 24px;
-}
-
-#trek-card-2 a {
-    text-align: center;
-    background-color: green;
-    display: block;
-    padding: 24px;
-    text-decoration: none;
-    color: #EFF7EB;
-    font-size: 20px;
-}
-
-#trek-card-3 a:hover {
+.card-style-1 a:hover {
     background-color: transparent;
-    transition: 
-    background-color 0.5s
-    color 0.5s;
     color: purple;
-}
-
-
-#trek-card-3 {
-    width: 350px;
-    background-color: #EFF7EB;
-}
-
-#trek-card-3 h2 {
-    text-align: center;
-}
-
-#trek-card-3 img {
-    width: 100%;
-}
-
-#trek-card-3 p {
-    padding: 0px 24px;
-}
-
-#trek-card-3 a {
-    text-align: center;
-    background-color: green;
-    display: block;
-    padding: 24px;
-    text-decoration: none;
-    color: #EFF7EB;
-    font-size: 20px;
-}
-
-#trek-card-4 a:hover {
-    background-color: transparent;
-    transition: 
-        background-color 0.5s
-        color 0.5s;
-    color: purple;
-}
-
-
-#trek-card-4 {
-    width: 350px;
-    background-color: #EFF7EB;
-}
-
-#trek-card-4 h2 {
-    text-align: center;
-}
-
-#trek-card-4 img {
-    width: 100%;
-}
-
-#trek-card-4 p {
-    padding: 0px 24px;
-}
-
-#trek-card-4 a {
-    text-align: center;
-    background-color: green;
-    display: block;
-    padding: 24px;
-    text-decoration: none;
-    color: #EFF7EB;
-    font-size: 20px;
 }
