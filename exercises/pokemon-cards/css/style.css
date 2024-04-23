@@ -9,13 +9,10 @@
 */
 .card-style-3 {
     width: 350px;
-    margin: 0px;
-}
-
-#pokemon-card-1 {
-    border: 18px solid gold;
+    margin: 0px 12px;
+    border: 16px solid gold;
     border-radius: 12px;
-    margin: 0px;
+    background-color: yellow;
 }
 
 .pokemon-header {
@@ -39,7 +36,7 @@
 }
 
 .details {
-    background-color: aqua;
+    background-color: gold;
     font-size: 12px;
     display: block;
     font-weight: bold;
@@ -51,17 +48,25 @@
 }
 
 .attack {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+   align-items: center;
 }
 
 .description {
-    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 24px 0px;
+    width: 10vw;
 }
 
 .bold {
+    display: inline;
     font-weight: bold;
+    font-size: 18px;
+    flex: 2;
 }
 
 .data {
@@ -72,4 +77,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
     border: 2px solid goldenrod;
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 0px 8px;
+}
+
+.power {
+    font-weight: bold;
+    font-size: 24px;
 }
