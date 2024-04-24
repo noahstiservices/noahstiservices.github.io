@@ -35,8 +35,8 @@
     color: #EFF7EB;
     font-size: 20px;
     transition: 
-    background-color 0.7s,
-    color 0.7s;
+        background-color 0.7s,
+        color 0.7s;
 }
 
 .card-style-1 a:hover {
