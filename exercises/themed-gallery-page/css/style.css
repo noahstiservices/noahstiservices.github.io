@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/Wolf.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 12px;
+}
+
+#hero {
+    background-image: url("../images/Hero1.jpg");
+    background-size: cover;
+    height: 800px;
+    object-fit: cover;
+    position: relative;
+    background-position: center center;
+    opacity: 85%;
+}
+
+#hero #hero-content h3 {
+    position: absolute;
+    font-size: 48px;
+    left: 6%;
+    background-color: rgb(85, 5, 85);
+    padding: 12px;
+    color: yellow;
+    border-radius: 16px;
+}
+
+#hero #hero-content h4 {
+    position: absolute;
+    font-size: 36px;
+    top: 2%;
+    left: 62%;
+}
+
+#hero #hero-content h4 a {
+    text-decoration: none;
+    color: rgb(1, 255, 1);
+    background: linear-gradient(45deg, purple, blue);
+    padding: 24px;
+    border-radius: 36px;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+#hero #hero-content h4 a:hover {
+    color: white;
+    background: transparent;
+    background: linear-gradient(45deg, red, black);
+
+}
+
+#layout {
+    width: 1100px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#layout h3 {
+    background: linear-gradient(95deg, black, rgb(1, 255, 1), black );
+    color: black;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 22px;
+}
+
+#masonry-layout {
+    columns: 3 auto;
+    column-gap: 36px;
+}
+
+#masonry-layout img {
+    width: 100%;
+    margin-bottom: 36px;
+}
