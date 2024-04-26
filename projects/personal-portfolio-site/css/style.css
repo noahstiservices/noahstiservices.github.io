@@ -113,6 +113,7 @@ h2 {
 #card-footer {
     display: flex;
     background-color: red;
+    border-radius: 8px;
 }
 
 #card-1 {
