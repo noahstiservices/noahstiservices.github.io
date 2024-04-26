@@ -92,6 +92,7 @@ h2 {
     color: rgb(0, 255, 0);
     background: linear-gradient(90deg, red, black, red);
     padding: 24px;
+    border-radius: 8px;
 }
 
 #gallery-layout {
