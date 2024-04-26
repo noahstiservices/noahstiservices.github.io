@@ -11,9 +11,14 @@ body {
     background-position: center center;
 }
 
+.bar {
+    display: flex;
+    margin: 0px;
+}
+
 #everything-container {
     max-width: 80vw;
-    margin: 48px auto;
+    margin: 24px auto;
 }
 
 .hero {
@@ -27,41 +32,59 @@ body {
     position: relative;
 }
 
-.hero-content {
-    position: absolute;
-    top: 10%;
-    left: 12%;
-    padding: 32px;
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 12px;
+    margin: 0px 32px;
     border-radius: 12px;
+    position: absolute;
+    top: 20%;
+    background-color: black;
+    background-attachment: scroll;
 }
 
-.hero-content h3 {
+.sidebar-content h3 {
+    margin-top: 0px;
     color: white;
     border-bottom: 4px solid white;
     font-size: 24px;
 }
 
-.hero span {
+.hero span a {
+    color: rgb(0, 255, 0);
+    text-decoration: none;
     font-size: 48px;
-    background: linear-gradient(45deg, red, black, red);
+    background: linear-gradient(45deg, red, white, red);
     padding: 40px;
     border-radius: 12px;
-    color: rgb(0, 255, 0);
 }
 
-.hero-content a {
+.hero span a:hover {
+    color: yellow;
+    background: transparent;
+    background-color: black;
+}
+
+.sidebar-content a {
     text-decoration: none;
     color: rgb(0, 255, 0);
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.sidebar-content a:hover {
+    border-bottom: 2px solid white;
 }
 
 h1 {
     text-align: center;
     font-size: 36px;
     color: rgb(0, 255, 0);
-    background-color: rgba(0, 0, 0, 0.767);
+    background-color: black;
     padding: 12px;
+    border-radius: 8px;
 }
 
 h2 {
