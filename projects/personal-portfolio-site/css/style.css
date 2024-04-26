@@ -41,7 +41,6 @@ body {
     position: absolute;
     top: 20%;
     background-color: black;
-    background-attachment: scroll;
 }
 
 .sidebar-content h3 {
