@@ -15,20 +15,32 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
 }
 
 #hero-1 span {
-    font-size: 12vw;
+    font-size: 160px;
     color: orange;
     background-color: rgba(7, 31, 63, 0.486);
+    padding: 24px;
 }
 
 #hero-1 h1 {
-    padding-left: 10vw;
-    font-size: 8vw;
+    font-size: 150px;
     color: rgba(243, 247, 8, 0.664);
     background-color: rgba(0, 0, 0, 0.288);
+    padding: 24px;
+    margin-top: 0px;
+    margin-bottom: 65px;
+}
+
+#hero-1 a {
+    font-size: 48px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: yellow;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 65px;
 }
 
 #hero-2 {
@@ -43,103 +55,69 @@ body {
 }
 
 #hero-2 h2 {
-    font-size: 8vw;
-    margin-bottom: 0px;
-    margin-right: 5vw;
-    margin-top: 0px;
+    margin: 0px;
+    font-size: 150px;
     color: rgba(53, 243, 53, 0.747);
     background-color: rgba(0, 0, 0, 0.514);
+    padding: 12px;
 }
 
 #hero-2 h4 {
-    font-size: 3vw;
-    margin: 16vh 5vw 4vh 0px;
+    font-size: 65px;
     color: aqua;
     background-color: rgba(128, 0, 128, 0.527);
     padding: 12px;
+    margin: 75px 0px;
 }
 
 #hero-2 a {
     text-decoration: none;
-    margin: 4vh;
-    font-size: 2vw;
+    font-size: 36px;
     color: white;
     background-color: rgba(0, 0, 0, 0.719);
     padding: 24px;
-}
-
-#hero-1 a {
-    font-size: 1.5vw;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.705);
-    color: yellow;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 0px 0px;
+    margin-bottom: 75px;
 }
 
 #hero-3 {
     background-image: url("../images/pexels-element5-1293261.jpg");
-    height: 100vw;
+    height: 100vh;
     background-size: cover;
-    background-position: center center;
-    position: relative;
+    background-position: top bottom;
+    margin: 0px;
 }
 
 .hero-content #join {
-    position: absolute;
-    top: 5%;
-    left: 15%;
-    font-size: 8vh;
+    margin: 0px;
+    text-align: center;
+    font-size: 64px;
     color: yellow;
 }
 
-.hero-content #our {
-    position: absolute;
-    top: 35%;
-    left: 45%;
-    font-size: 12vh;
-    color: rgb(84, 248, 8);
-}
-
-.hero-content #arcade {
-    position: absolute;
-    top: 70%;
-    left: 65%;
-    font-size: 14vh;
-    color: red;
-}
-
 .hero-content #ticket {
-    position: absolute;
-    top: 25%;
-    left: 15%;
-    font-size: 5vh;
     color: rgb(241, 91, 241);
-    background-color: rgba(0, 0, 0, 0.705);
-    padding: 8px;
-}
-
-.hero-content #make {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    font-size: 5vh;
-    color: rgb(84, 248, 8);
-    background-color: rgba(0, 0, 0, 0.678);
-    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
 }
 
 #click {
-    position: absolute;
-    top: 90%;
-    left: 35%;
-    font-size: 5vh;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: aqua;
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
+    text-align: center;
 }
 
 .hero-content a {
     text-decoration: none;
     border-radius: 24px;
+}
+
+#cta-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    gap: 88px;
+    margin-top: 95px;
 }
