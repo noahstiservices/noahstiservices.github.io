@@ -15,7 +15,7 @@ h1 {
     background-color: black;
     color: orange;
     padding: 12px;
-    margin-top: 85px;
+    margin: 85px 0px;
 }
 
 #hero {
@@ -68,12 +68,12 @@ h1 {
     text-align: center;
 }
 
-#layout h3 {
+h3 {
     background-color: #072441;
     color: rgb(255, 230, 0);
     padding: 12px;
-    border-radius: 16px;
     font-size: 22px;
+    text-align: center;
 }
 
 #masonry-layout {
