@@ -5,10 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url("../images/background.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+    background: linear-gradient(90deg, black, rgb(0, 255, 0), black);
 }
 
 .bar {
@@ -17,7 +14,8 @@ body {
 }
 
 #everything-container {
-    max-width: 80vw;
+    width: 80vw;
+    max-width: 1400px;
     margin: 24px auto;
 }
 
@@ -41,6 +39,7 @@ body {
     position: absolute;
     top: 20%;
     background-color: black;
+    position: fixed;
 }
 
 .sidebar-content h3 {
@@ -77,13 +76,18 @@ body {
     border-bottom: 2px solid white;
 }
 
-h1 {
+.hero h1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
     text-align: center;
-    font-size: 36px;
+    font-size: 42px;
     color: rgb(0, 255, 0);
     background-color: black;
     padding: 12px;
     border-radius: 8px;
+    margin-top: 0px;
+    width: 100%;
 }
 
 h2 {
@@ -93,6 +97,7 @@ h2 {
     background: linear-gradient(90deg, red, black, red);
     padding: 24px;
     border-radius: 8px;
+    margin-top: 85px;
 }
 
 #gallery-layout {
@@ -114,6 +119,7 @@ h2 {
     display: flex;
     background-color: red;
     border-radius: 8px;
+    margin-top: 85px;
 }
 
 #card-1 {
