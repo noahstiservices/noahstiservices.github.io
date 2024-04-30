@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+    padding: 24px;
+}
+
+#navbar a {
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar 
+.button-1, 
+.button-2,
+.button-3 {
+    background-color: rgb(2, 70, 2);
+    color: burlywood;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar .header {
+    margin-right: auto;
+    margin-left: 24px;
+    color: rgb(2, 70, 2);
+}
+
+#navbar
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
+    background: transparent;
+    color: rgb(2, 70, 2);
+    transition: 
+        color .7s, 
+        background-color .7s;
+}
