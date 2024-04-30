@@ -7,6 +7,8 @@ body {
     font-family: sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Domine:wght@400..700&family=Heebo:wght@100..900&family=Kalam:wght@300;400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Quintessential&family=Tangerine:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 #navbar {
     display: flex;
     align-items: center;
@@ -49,4 +51,116 @@ body {
     transition: 
         color .7s, 
         background-color .7s;
+}
+
+#navbar-2 {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(201, 130, 0);
+}
+
+#navbar-2 .header-2 {
+    margin-right: auto;
+    color: red;
+    margin-left: 24px;
+    font-family: "Maven Pro";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+}
+
+#navbar-2 
+.news,
+.editorials,
+.media,
+.subscribe {
+    padding: 24px;
+    color: rgb(255, 255, 97);
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.subscribe {
+    font-size: 24px;
+    background-color: rgb(206, 0, 0);
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 24px;
+    font-weight: bold;
+    font-family: "Lobster Two";
+}
+
+.subscribe:hover {
+    color: rgb(206, 0, 0);
+    background: transparent;
+    transition: color .7s, background-color 0.7s;
+    background-color: rgb(255, 255, 97);
+}
+
+#center {
+    text-align: center;
+    flex: 1;
+}
+
+#navbar-top {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+#navbar-top {
+    background-image: url("../images/200w.gif");
+    background-size: cover;
+    background-position: top top;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: orange;
+    padding: 24px;
+}
+
+#navbar-bottom {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: orange;
+    padding: 12px 36px;
+}
+
+#navbar-bottom .cta {
+    background-color: white;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-bottom .cta:hover {
+    background-color: orange;
+    color: white;
+    transition: color 0.7s, background-color 0.7s;
+}
+
+#navbar-bottom #name {
+    font-size: 24px;
 }
