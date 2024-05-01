@@ -218,6 +218,12 @@ a {
         flex-direction: column;
     }
 
+    #nav-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     #hero h1 {
         font-size: 48px;
     }
