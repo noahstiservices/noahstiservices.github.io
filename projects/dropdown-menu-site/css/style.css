@@ -28,6 +28,7 @@ body {
     left: 8%;
     font-size: 46px;
     color: black;
+    font-weight: bold;
 }
 
 #navbar {
@@ -60,18 +61,39 @@ h2 {
     background-color: #5ea3b3;
     padding: 24px;
     font-size: 42px;
+    color: white;
 }
 
-#dog-gallery {
+#gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 24px;
     max-width: 1800px;
-    margin: 12px auto;
-    gap: 24px;
+    margin: 0px auto;
+    gap: 48px;
 }
 
-#dog-gallery img {
+#gallery img {
     width: 100%;
     height: 100%;
+    margin: 0px;
+}
+
+#gallery p {
+    text-align: center;
+    background-color: burlywood;
+    padding: 8px 24px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#cat {
+    background-color: #dbdb36;
+    color: black;
+}
+
+#exotic {
+    background-color: #b04040;
+    color: white;
 }
