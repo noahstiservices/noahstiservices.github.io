@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#everything-container {
+    margin: 24px auto;
+    margin-top: 0px;
+}
+
+#hero {
+    display: flex;
+    background-image: url("../images/Hero.jpg");
+    background-size: cover;
+    max-width: 1800px;
+    margin: 0px auto;
+    height: 70vh;
+    position: relative;
+}
+
+#hero span {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-size: 46px;
+    color: black;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin: 0px auto;
+    background-color: burlywood;
+    padding: 12px 24px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#link {
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #5ea3b3;
+    padding: 24px;
+    font-size: 42px;
+}
+
+#dog-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    max-width: 1800px;
+    margin: 12px auto;
+    gap: 24px;
+}
+
+#dog-gallery img {
+    width: 100%;
+    height: 100%;
+}
