@@ -109,3 +109,59 @@ h2 {
     background-color: #b04040;
     color: white;
 }
+
+#wilson {
+    text-align: center;
+    margin-top: 85px;
+    background-color: #5ea3b3;
+    padding: 64px;
+    margin: 85px auto;
+    width: 950px;
+    border-radius: 24px;
+}
+
+#wilson img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+#wilson p {
+    background-color: burlywood;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 12px;
+    margin: 0px;
+    border-radius: 12px;
+}
+
+#text {
+    border-bottom: 4px solid white;
+}
+
+#pepper {
+    text-align: center;
+    margin-top: 85px;
+    background-color: #dbdb36;
+    padding: 64px;
+    margin: 85px auto;
+    width: 950px;
+    border-radius: 24px;
+}
+
+#pepper img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+#pepper p {
+    background-color: burlywood;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 12px;
+    margin: 0px;
+    border-radius: 12px;
+}
+
+#text {
+    border-bottom: 4px solid white;
+}
