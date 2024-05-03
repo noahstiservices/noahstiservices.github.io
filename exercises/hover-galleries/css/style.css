@@ -36,10 +36,18 @@ h1 {
     margin-top: 36px;
 }
 
+.card1 .card-content:hover a {
+    box-shadow: 4px 4px 4px black;
+}
+
 .card1:hover {
     background-color: lightcyan;
     box-shadow: 4px 4px 4px black;
     transform: translateY(-4px);
+}
+
+.card1 .card-content {
+    transition: box-shadow 0.5s;
 }
 
 .card1 {
@@ -104,17 +112,20 @@ h1 {
     margin-top: 36px;
 }
 
-.card3 .card-content {
+.card3 .card-content p {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
+    background-color: aqua;
+    border-radius: 12px;
+    padding: 12px;
     transition: 
         opacity 05s,
         visibility 0.5s,
         transform 0.5s;
 }
 
-.card3:hover .card-content {
+.card3:hover .card-content p {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
