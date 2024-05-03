@@ -21,7 +21,7 @@ body {
     background-size: cover;
     max-width: 1800px;
     margin: 0px auto;
-    height: 70vh;
+    height: 80vh;
     position: relative;
     border-radius: 24px;
 }
@@ -114,7 +114,7 @@ h2 {
     text-align: center;
     margin-top: 85px;
     background-color: #5ea3b3;
-    padding: 64px;
+    padding: 42px;
     margin: 85px auto;
     width: 950px;
     border-radius: 24px;
@@ -134,6 +134,33 @@ h2 {
     border-radius: 12px;
 }
 
+#adopt {
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+#adopt a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #5ea3b3;
+    background-color: burlywood;
+    border-radius: 12px;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+#adopt a:hover {
+    color: burlywood;
+    background-color: transparent;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
 #text {
     border-bottom: 4px solid white;
 }
@@ -141,7 +168,7 @@ h2 {
 #pepper {
     text-align: center;
     margin-top: 85px;
-    background-color: #dbdb36;
+    background-color: #d8d833;
     padding: 64px;
     margin: 85px auto;
     width: 950px;
@@ -162,6 +189,157 @@ h2 {
     border-radius: 12px;
 }
 
-#text {
-    border-bottom: 4px solid white;
+#adopt1 {
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+#adopt1 a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #d8d833;
+    background-color: burlywood;
+    border-radius: 12px;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+#adopt1 a:hover {
+    color: burlywood;
+    background-color: transparent;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+#lamar {
+    text-align: center;
+    margin-top: 85px;
+    background-color: #b04040;
+    padding: 64px;
+    margin: 85px auto;
+    width: 950px;
+    border-radius: 24px;
+}
+
+#lamar img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+#lamar p {
+    background-color: burlywood;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 12px;
+    margin: 0px;
+    border-radius: 12px;
+}
+
+#adopt2 {
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+#adopt2 a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #b04040;
+    background-color: burlywood;
+    border-radius: 12px;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+#adopt2 a:hover {
+    color: burlywood;
+    background-color: transparent;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+/* relative screen for first page */
+
+@media screen and (max-width: 1200px) and (min-width: 440px) {
+    #hero {
+        max-width: 850px;
+        min-width: 440px;
+        height: 40vh;
+    }
+
+    #hero span {
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        font-size: 30px;
+        width: 240px;
+    }
+
+    #navbar {
+        max-width: 1200px;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr;
+        max-width: 1200px;
+        min-width: 440px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    #gallery p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #wilson {
+        width: 90vw;
+        padding: 34px;
+    }
+
+    #wilson p {
+        font-size: 16px;
+    }
+    #pepper {
+        width: 90vw;
+        padding: 34px;
+    }
+
+    #pepper p {
+        font-size: 16px;
+    }
+
+    #lamar {
+        width: 90vw;
+        padding: 34px;
+    }
+
+    #lamar p {
+        font-size: 16px;
+    }
+
+    #adopt a {
+        font-size: 20px;
+    }
+
+    #adopt2 a {
+        font-size: 20px;
+    }
+
+    #adopt1 a {
+        font-size: 20px;
+    }
 }
