@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Domine:wght@400..700&family=Heebo:wght@100..900&family=Kalam:wght@300;400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Maven+Pro:wght@400..900&family=Quintessential&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&family=Tangerine:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -38,6 +40,9 @@ body {
     text-align: center;
     border-radius: 90px;
     padding: 12px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #navbar {
@@ -54,15 +59,27 @@ body {
 #navbar a {
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 
 #logo {
+    font-family: "Rambla", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 42px;
     font-weight: bold;
 }
 
+#logo i {
+    color: #5ea3b3;
+}
+
 #link {
     font-size: 24px;
+    font-weight: bold;
+    font-family: "Rambla", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 h2 {
@@ -72,6 +89,9 @@ h2 {
     padding: 24px;
     font-size: 42px;
     color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #gallery {
@@ -95,9 +115,13 @@ h2 {
     background-color: burlywood;
     padding: 8px 24px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 12px;
+    font-weight: bold;
+    font-family: "Rambla", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #cat {
@@ -200,19 +224,16 @@ h2 {
     padding: 12px;
     text-decoration: none;
     font-size: 26px;
-    color: #d8d833;
+    color: black;
     background-color: burlywood;
     border-radius: 12px;
     transition: 
-        background-color 0.7s,
         color 0.7s;
 }
 
 #adopt1 a:hover {
-    color: burlywood;
-    background-color: transparent;
+    color: #d8d833;
     transition: 
-        background-color 0.7s,
         color 0.7s;
 }
 
@@ -267,13 +288,71 @@ h2 {
         color 0.7s;
 }
 
+.dropdown-container {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Rambla", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibiltiy 0.5s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu .wilson {
+    background-color: burlywood;
+}
+
+.dropdown-menu .pepper {
+    background-color: burlywood;
+}
+
+.dropdown-menu .lamar {
+    background-color: burlywood;
+}
+
+.dropdown-menu a {
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+    padding: 4px 12px;
+}
+
+#navbar .dropdown-menu .wilson:hover {
+    background: #5ea3b3;
+}
+
+#navbar .dropdown-menu .pepper:hover {
+    background: #d8d833;
+}
+
+#navbar .dropdown-menu .lamar:hover {
+    background: #b04040;
+}
+
 /* relative screen for first page */
 
 @media screen and (max-width: 1200px) and (min-width: 440px) {
     #hero {
         max-width: 850px;
         min-width: 440px;
-        height: 40vh;
+        height: 30vh;
     }
 
     #hero span {
@@ -303,10 +382,11 @@ h2 {
     #gallery p {
         margin-left: auto;
         margin-right: auto;
+        font-size: 16px;
     }
 
     #wilson {
-        width: 90vw;
+        width: 80vw;
         padding: 34px;
     }
 
@@ -341,5 +421,10 @@ h2 {
 
     #adopt1 a {
         font-size: 20px;
+    }
+
+    .dropdown-container:hover .dropdown-menu {
+        opacity: 0;
+        visibility: hidden;
     }
 }
