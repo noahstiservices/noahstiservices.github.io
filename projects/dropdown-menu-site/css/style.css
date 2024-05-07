@@ -17,18 +17,16 @@ body {
     margin-top: 0px;
 }
 
-#hero {
+.hero {
     display: flex;
     background-image: url("../images/Hero.jpg");
     background-size: cover;
-    max-width: 1800px;
+    background-position: center top;
     margin: 0px auto;
     height: 80vh;
-    position: relative;
-    border-radius: 24px;
 }
 
-#hero span {
+.hero span {
     position: absolute;
     top: 20%;
     left: 12%;
@@ -45,15 +43,17 @@ body {
     font-style: normal;
 }
 
-#navbar {
+#navbar-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1800px;
+    width: 1600px;
     margin: 0px auto;
+}
+
+#navbar {
     background-color: burlywood;
     padding: 12px 24px;
-    border-radius: 12px;
 }
 
 #navbar a {
@@ -105,9 +105,10 @@ h2 {
 
 #gallery img {
     width: 100%;
-    height: 100%;
+    height: 400px;
     margin: 0px;
     border-radius: 24px;
+    object-fit: cover;
 }
 
 #gallery p {
@@ -115,13 +116,19 @@ h2 {
     background-color: burlywood;
     padding: 8px 24px;
     margin: 0px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     border-radius: 12px;
     font-weight: bold;
     font-family: "Rambla", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.dog {
+    border: 6px solid black;
+    padding: 12px;
+    border-radius: 24px;
 }
 
 #cat {
@@ -288,7 +295,7 @@ h2 {
         color 0.7s;
 }
 
-.dropdown-container {
+#everything-container .dropdown-container {
     position: relative;
     font-size: 24px;
     font-weight: bold;
@@ -348,41 +355,117 @@ h2 {
 
 /* relative screen for first page */
 
-@media screen and (max-width: 1200px) and (min-width: 440px) {
-    #hero {
-        max-width: 850px;
-        min-width: 440px;
+@media screen and (max-width: 1600px) and (min-width: 850px) {
+    .hero {
+        height: 50vh;
+    }
+
+    .hero span {
+        position: absolute;
+        top: 24%;
+        left: 2%;
+        font-size: 30px;
+        width: 180px;
+    }
+
+    #navbar-content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 900px;
+        margin: 0px auto;
+    }
+
+    #navbar a {
+        margin: 0px 42px;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    #gallery p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+    }
+
+    #gallery img {
+        width: 100%;
+        height: 200px;
+    }
+
+    #wilson {
+        width: 80vw;
+        padding: 34px;
+    }
+
+    #wilson p {
+        font-size: 22px;
+    }
+    #pepper {
+        width: 90vw;
+        padding: 34px;
+    }
+
+    #pepper p {
+        font-size: 22px;
+    }
+
+    #lamar {
+        width: 90vw;
+        padding: 34px;
+    }
+
+    #lamar p {
+        font-size: 22px;
+    }
+
+    #adopt a {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 440px) {
+    .hero {
         height: 30vh;
     }
 
-    #hero span {
+    .hero span {
         position: absolute;
-        top: 20%;
+        top: 22%;
         left: 2%;
         font-size: 30px;
-        width: 240px;
+        width: 180px;
     }
 
-    #navbar {
-        max-width: 1200px;
-        justify-content: space-between;
+    #navbar-content {
+        display: flex;
+        align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
+        width: 380px;
+        margin: 0px auto;
     }
 
     #gallery {
         grid-template-columns: 1fr;
-        max-width: 1200px;
-        min-width: 440px;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 100%;
     }
 
     #gallery p {
         margin-left: auto;
         margin-right: auto;
         font-size: 16px;
+    }
+
+    #gallery img {
+        width: 100%;
+        height: 300px;
     }
 
     #wilson {
@@ -393,6 +476,7 @@ h2 {
     #wilson p {
         font-size: 16px;
     }
+
     #pepper {
         width: 90vw;
         padding: 34px;
@@ -412,19 +496,15 @@ h2 {
     }
 
     #adopt a {
-        font-size: 20px;
-    }
-
-    #adopt2 a {
-        font-size: 20px;
-    }
-
-    #adopt1 a {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .dropdown-container:hover .dropdown-menu {
         opacity: 0;
+        visibility: hidden;
+    }
+
+    .dropdown-container i {
         visibility: hidden;
     }
 }
