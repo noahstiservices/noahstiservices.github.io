@@ -232,9 +232,13 @@ a {
         font-size: 36px;
     }
 
-    .three-cards,
-    .two-cards {
+    .three-cards {
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .two-cards a {
         flex-direction: column;
         flex-wrap: wrap;
     }
