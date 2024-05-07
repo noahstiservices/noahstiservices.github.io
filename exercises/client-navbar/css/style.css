@@ -13,12 +13,13 @@ body {
     display: flex;
     align-items: center;
     background-color: burlywood;
-    padding: 24px;
+    padding: 24px 0px;
 }
 
 #navbar a {
     text-decoration: none;
     text-align: center;
+    margin-right: auto;
 }
 
 #navbar 
@@ -37,8 +38,7 @@ body {
 }
 
 #navbar .header {
-    margin-right: auto;
-    margin-left: 24px;
+    margin-left: auto;
     color: rgb(2, 70, 2);
 }
 
@@ -62,7 +62,7 @@ body {
 
 #navbar-2 .header-2 {
     margin-right: auto;
-    color: red;
+    color: rgb(255, 255, 97);
     margin-left: 24px;
     font-family: "Maven Pro";
     font-optical-sizing: auto;
@@ -84,7 +84,8 @@ body {
     font-family: "Raleway";
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .subscribe {
@@ -167,4 +168,28 @@ body {
 
 #bottom-center {
     margin-right: auto;
+}
+
+#navbar-level {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    background-color: orange;
+}
+
+#navbar-level a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 36px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    transition: 
+        background-color 0.7s;
+}
+
+#navbar-level a:hover {
+    background-color: white;
+    transition: 
+        background-color 0.7s;
 }
