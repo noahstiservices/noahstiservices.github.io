@@ -509,18 +509,18 @@ body {
     }
 
     #nav a {
-        flex: 2px;
+        flex: 200px;
         align-items: center;
     }
 
     #banner-container,
-#card-1,
-#card-2,
-#card-3,
-#aside,
-#main {
-    background-color: transparent;
-    margin: 0px;
-    padding: 0px;
-}
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: transparent;
+        margin: 0px;
+        padding: 0px;
+    }
 }
