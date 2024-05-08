@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#everything-container {
+    margin: 24px auto;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.all-navbar {
+    position: sticky;
+    top: 0px;
+}
+
+#top-content a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#top-content .hover:hover {
+    background-color: black;
+    color: #C8B02E;
+    border-radius: 50%;
+}
+
+#top-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #2D3990;
+}
+
+#top-content a {
+    padding: 24px;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+#top-content img {
+    width: 70%;
+    background-color: black;
+    border-radius: 55%;
+}
+
+#bottom-content {
+    display: flex;
+    width: 100%;
+    padding-right: 24px;
+    padding: 24px;
+}
+
+#navbar-bottom {
+    background-color: #C8B02E;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    padding: 24px;
+    font-size: 20px;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+#navbar-bottom a:hover {
+    background-color: #2D3990;
+    color: #C8B02E;
+    border-radius: 24px;
+}
+ 
+#media-container h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#media-with-text {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: solid 8px #2D3990;
+}
+
+#media-with-text p {
+    padding: 24px;
+    width: 650px;
+    text-align: center;
+}
+
+#media-with-text img {
+    width: 500px;
+    padding: 24px;
+}
+
+#media {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: solid 8px #2D3990;
+}
+
+#media p {
+    padding: 24px;
+    width: 650px;
+    text-align: center;
+}
+
+#media img {
+    width: 500px;
+    padding: 24px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: #2D3990;
+    font-weight: bold;
+    padding: 12px;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+.button a:hover {
+    background-color: #C8B02E;
+    color: white;
+    border-radius: 24px;
+}
+
+#footer-cards {
+    display: flex;
+    margin-top: 100px;
+    background-color: #2D3990;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card1 {
+    text-align: center;
+    font-size: 16px;
+    padding: 24px;
+    background-color: #2D3990;
+    color: white;
+    border: solid 6px #C8B02E;
+    width: 500px;
+    flex: 1;
+}
+
+.card1 p {
+    margin-top: 0px;
+    padding: 24px;
+}
+
+.card1 h2 {
+    margin-bottom: 4px;
+    margin-top: 0px;
+    border-bottom: #C8B02E solid 2px;
+}
+
+.card1 a {
+    text-decoration: none;
+    color: #C8B02E;
+    font-size: 24px;
+    background-color: black;
+    padding: 12px;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+    border-radius: 24px;
+    font-weight: bold;
+}
+
+.card1 a:hover {
+    border-radius: 24px;
+    background-color: #C8B02E;
+    color: black;
+}
+
+.card2 {
+    text-align: center;
+    font-size: 16px;
+    padding: 24px;
+    background-color: #2D3990;
+    color: white;
+    border: solid 6px #C8B02E;
+    width: 500px;
+    flex: 1;
+}
+
+.card2 p {
+    margin-top: 0px;
+    padding: 24px;
+}
+
+.card2 h2 {
+    margin-bottom: 4px;
+    margin-top: 0px;
+    border-bottom: #C8B02E solid 2px;
+}
+
+.card2 a {
+    text-decoration: none;
+    color: #C8B02E;
+    font-size: 24px;
+    background-color: black;
+    padding: 12px;
+    border-radius: 24px;
+    font-weight: bold;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+}
+
+.card2 a:hover {
+    border-radius: 24px;
+    background-color: #C8B02E;
+    color: black;
+}
+
+.card3 {
+    text-align: center;
+    font-size: 16px;
+    padding: 24px;
+    background-color: #2D3990;
+    color: white;
+    border: solid 6px #C8B02E;
+    width: 500px;
+    flex: 1;
+}
+
+.card3 p {
+    margin-top: 0px;
+    padding: 24px;
+}
+
+.card3 h2 {
+    margin-bottom: 4px;
+    margin-top: 0px;
+    border-bottom: #C8B02E solid 2px;
+}
+
+.card3 a {
+    text-decoration: none;
+    color: #C8B02E;
+    font-size: 24px;
+    background-color: black;
+    padding: 12px;
+    font-weight: bold;
+    transition: 
+        background-color 0.7s,
+        color 0.7s;
+    border-radius: 24px;
+}
+
+.card3 a:hover {
+    border-radius: 24px;
+    background-color: #C8B02E;
+    color: black;
+}
+
+.copy {
+    text-align: center;
+    padding: 12px;
+}
+
+/* Relative Screen */
+
+@media screen and (max-width: 1100px) and (min-width: 420px) {
+    #top-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #bottom-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #media-container h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#media-with-text {
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+#media-with-text p {
+    padding: 12px;
+    text-align: center;
+    width: 90vw;
+}
+
+#media-with-text img {
+    width: 280px;
+    padding: 24px;
+}
+
+#media {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#media p {
+    padding: 24px;
+    width: 90vw;
+    text-align: center;
+}
+
+#media img {
+    width: 380px;
+    padding: 24px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footer-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
