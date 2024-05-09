@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Domine:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Kalam:wght@300;400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Maven+Pro:wght@400..900&family=Quintessential&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&family=Tangerine:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, black, yellow, black);
+}
+
+.container {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.top h2 {
+    padding: 24px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.top h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game p {
+    margin: 0 48px;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.game img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pit {
+    margin-right: 180px;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.button {
+    text-align: center;
+    margin: 24px;
+    margin-top: 48px;
+}
+
+.button  a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 18px;
+    margin: 36px;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 24px;
+}
+
+.button .make:hover {
+    color: red;
+}
+
+.button .cant:hover {
+    color: yellow;
+}
+
+/* Screen Sizing */
+
+@media screen and (max-width: 1100px) and (min-width: 420px) {
+    .top h2 {
+        padding: 24px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .top h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .game {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .game p {
+        margin: 0 48px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .game img {
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 48px;
+    }
+    
+    .team {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .pit {
+        margin-right: 120px;
+    }
+
+    .button {
+        text-align: center;
+        margin: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bottom {
+        text-align: center;
+        margin-top: 48px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        font-family: "Vollkorn", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .button  a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        background-color: black;
+        padding: 12px;
+        margin: 36px;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 24px;
+    }
+
+}
