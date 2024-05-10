@@ -85,6 +85,10 @@ body {
     font-style: normal;
 }
 
+.call {
+    font-size: 24px;
+}
+
 .button {
     text-align: center;
     margin: 24px;
