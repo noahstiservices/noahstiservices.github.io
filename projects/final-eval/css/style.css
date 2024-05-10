@@ -76,7 +76,7 @@ body {
 
 .bottom {
     text-align: center;
-    margin-top: 48px;
+    margin-top: 12px;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -114,6 +114,7 @@ body {
 .bottom-content {
     box-shadow: -4px 4px 24px black;
     padding: 4px;
+    margin-bottom: 8px;
 }
 
 /* Screen Sizing */
