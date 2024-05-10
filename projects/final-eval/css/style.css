@@ -13,6 +13,8 @@ body {
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: -4px 4px 24px red;
+    padding: 2px;
 }
 
 .top {
@@ -20,6 +22,9 @@ body {
     font-family: "Vollkorn", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    box-shadow: -4px 4px 24px black;
+    padding: 2px;
+    margin-top: 8px;
 }
 
 .top h2 {
@@ -104,6 +109,11 @@ body {
 
 .button .cant:hover {
     color: yellow;
+}
+
+.bottom-content {
+    box-shadow: -4px 4px 24px black;
+    padding: 4px;
 }
 
 /* Screen Sizing */
