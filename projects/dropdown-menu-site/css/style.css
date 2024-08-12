@@ -556,9 +556,9 @@ h2 {
     }
 }
 
-@media screen and (max-width: 440px) and (min-width: 200px) {
+@media screen and (max-width: 440px) and (min-width: 300px) {
     .hero {
-        height: 15vh;
+        height: 22vh;
         margin-top: 24px;
     }
 
@@ -566,7 +566,7 @@ h2 {
         position: absolute;
         top: 28%;
         left: 2%;
-        font-size: 12px;
+        font-size: 18px;
         width: 110px;
     }
 
@@ -643,9 +643,4 @@ h2 {
         visibility: hidden;
     }
 
-    /* .dog a {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-    } */
 }
