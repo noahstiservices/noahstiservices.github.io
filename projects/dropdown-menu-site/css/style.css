@@ -379,6 +379,24 @@ h2 {
     background: #b04040;
 }
 
+.footer {
+    text-align: center;
+    background-color: burlywood;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px;
+    font-size: 24px;
+}
+
+.footer h3 {
+    margin: 0px;
+}
+
+.footer i {
+    margin-left: 24px;
+    margin-top: 12px;
+}
+
 /* relative screen for first page */
 
 @media screen and (max-width: 1600px) and (min-width: 850px) {
@@ -462,7 +480,7 @@ h2 {
 
     .hero span {
         position: absolute;
-        top: 22%;
+        top: 28%;
         left: 2%;
         font-size: 30px;
         width: 180px;
@@ -470,10 +488,13 @@ h2 {
 
     #navbar-content {
         display: flex;
-        align-items: center;
         flex-direction: column;
-        width: 380px;
-        margin: 0px auto;
+        width: 450px;
+        align-items: center;
+    }
+
+    #link {
+        margin-left: -20px;
     }
 
     #gallery {
@@ -533,4 +554,98 @@ h2 {
     .dropdown-container i {
         visibility: hidden;
     }
+}
+
+@media screen and (max-width: 440px) and (min-width: 200px) {
+    .hero {
+        height: 15vh;
+        margin-top: 24px;
+    }
+
+    .hero span {
+        position: absolute;
+        top: 28%;
+        left: 2%;
+        font-size: 12px;
+        width: 110px;
+    }
+
+    #navbar-content {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        align-items: center;
+    }
+
+    h2 {
+        margin-top: 24px;
+    }
+
+    #link {
+        margin-left: -20px;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #gallery p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+    }
+
+    #gallery img {
+        width: 100%;
+        height: 300px;
+    }
+
+    #wilson {
+        width: 80vw;
+        padding: 34px;
+    }
+
+    #wilson p {
+        font-size: 16px;
+    }
+
+    #pepper {
+        width: 90vw;
+        padding: 34px;
+    }
+
+    #pepper p {
+        font-size: 16px;
+    }
+
+    #lamar {
+        width: 90vw;
+        padding: 34px;
+    }
+
+    #lamar p {
+        font-size: 16px;
+    }
+
+    #adopt a {
+        font-size: 26px;
+    }
+
+    .dropdown-container:hover .dropdown-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .dropdown-container i {
+        visibility: hidden;
+    }
+
+    /* .dog a {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    } */
 }
