@@ -405,11 +405,8 @@ h2 {
     }
 
     .hero span {
-        position: absolute;
-        top: 24%;
-        left: 2%;
-        font-size: 30px;
-        width: 180px;
+        font-size: 50px;
+        width: 30vw;
     }
 
     #navbar-content {
@@ -479,11 +476,8 @@ h2 {
     }
 
     .hero span {
-        position: absolute;
-        top: 28%;
-        left: 2%;
-        font-size: 30px;
-        width: 180px;
+        font-size: 26px;
+        width: 30vw;
     }
 
     #navbar-content {
@@ -562,11 +556,8 @@ h2 {
     }
 
     .hero span {
-        position: absolute;
-        top: 22%;
-        left: 2%;
         font-size: 18px;
-        width: 110px;
+        width: 30vw;
     }
 
     #navbar-content {
