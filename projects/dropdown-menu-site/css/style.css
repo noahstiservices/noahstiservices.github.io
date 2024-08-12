@@ -559,12 +559,11 @@ h2 {
 @media screen and (max-width: 440px) and (min-width: 300px) {
     .hero {
         height: 22vh;
-        margin-top: 24px;
     }
 
     .hero span {
         position: absolute;
-        top: 24%;
+        top: 22%;
         left: 2%;
         font-size: 18px;
         width: 110px;
