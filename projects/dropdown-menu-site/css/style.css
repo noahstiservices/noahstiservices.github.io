@@ -558,6 +558,7 @@ h2 {
     .hero span {
         font-size: 18px;
         width: 30vw;
+        margin-top: 80px;
     }
 
     #navbar-content {
