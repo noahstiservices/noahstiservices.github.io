@@ -19,7 +19,7 @@ body {
 
 .hero {
     display: flex;
-    background-image: url("../images/Hero.jpg");
+    background-image: url("../images/pexels-madbyte-36372.jpg");
     background-size: cover;
     background-position: center top;
     margin: 0px auto;
@@ -29,7 +29,7 @@ body {
 .hero span {
     position: absolute;
     top: 20%;
-    left: 12%;
+    left: 60%;
     font-size: 80px;
     width: 440px;
     color: #dbdb36;
