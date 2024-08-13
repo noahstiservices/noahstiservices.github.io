@@ -126,9 +126,9 @@ h2 {
 }
 
 .dog {
-    border: 6px solid black;
     padding: 12px;
     border-radius: 24px;
+    background-color: #5ea3b3;
 }
 
 .dog a {
