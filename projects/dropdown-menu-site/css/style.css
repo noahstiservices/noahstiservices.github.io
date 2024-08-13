@@ -21,7 +21,7 @@ body {
     display: flex;
     background-image: url("../images/pexels-madbyte-36372.jpg");
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     margin: 0px auto;
     height: 80vh;
 }
