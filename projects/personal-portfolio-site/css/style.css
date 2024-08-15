@@ -3,14 +3,12 @@
 }
 
 body {
-    margin: 0px;
     font-family: sans-serif;
     background: linear-gradient(90deg, #014040, #02735E, #014040);
 }
 
 .bar {
     display: flex;
-    margin: 0px;
 }
 
 #everything-container {
@@ -27,7 +25,7 @@ body {
     flex-direction: column;
     background-image: url("../images/creative.jpg");
     background-position: center center;
-    height: 100vh;
+    height: 60vh;
     position: relative;
 }
 
@@ -35,11 +33,11 @@ body {
     display: flex;
     flex-direction: column;
     padding: 24px 12px;
-    margin: 0px 32px;
+    margin: 0px 0px;
     border-radius: 12px;
     position: absolute;
-    top: 20%;
-    left: 1.5%;
+    top: 60%;
+    left: 5%;
     background-color: black;
     position: fixed;
 }
@@ -55,7 +53,7 @@ body {
     color: black;
     text-decoration: none;
     font-size: 48px;
-    padding: 40px;
+    padding: 20px;
     border-radius: 12px;
 }
 
@@ -93,8 +91,8 @@ body {
 h2 {
     text-align: center;
     font-size: 36px;
-    color: white;
-    background: linear-gradient(90deg, red, black, red);
+    color: black;
+    background: orange;
     padding: 24px;
     border-radius: 8px;
     margin-top: 85px;
@@ -108,6 +106,7 @@ h2 {
 #gallery-layout img {
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 10%;
 }
 
 #center-color-container {
@@ -117,7 +116,6 @@ h2 {
 
 #card-footer {
     display: flex;
-    background-color: red;
     border-radius: 8px;
     margin-top: 85px;
 }
@@ -129,6 +127,7 @@ h2 {
     text-align: center;
     background-color: black;
     padding: 12px;
+    border-radius: 8%;
 }
 
 #card-1 h3 {
@@ -161,6 +160,7 @@ h2 {
     text-align: center;
     background-color: rgb(0, 255, 0);
     padding: 12px;
+    border-radius: 8%;
 }
 
 #card-2 h3 {
@@ -183,4 +183,207 @@ h2 {
 
 #card-2 a:hover {
     color: yellow;
+}
+
+@media screen and (max-width: 1900px) and (min-width: 1500px) {
+    #everything-container {
+        width: 70vw;
+        max-width: 1400px;
+        margin: 24px auto;
+        margin-top: 0px;
+    }
+    
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url("../images/creative.jpg");
+        background-position: center center;
+        height: 40vh;
+        position: relative;
+    }
+    
+    .sidebar-content {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 12px;
+        margin: 0px 0px;
+        border-radius: 12px;
+        position: absolute;
+        top: 60%;
+        left: 2%;
+        background-color: black;
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 300px) {
+    #everything-container {
+        width: 70vw;
+        margin: 24px auto;
+        margin-top: 0px;
+    }
+    
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url("../images/creative.jpg");
+        background-position: center center;
+        height: 30vh;
+        position: relative;
+    }
+    
+    .sidebar-content {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 12px;
+        margin: 0px 0px;
+        border-radius: 12px;
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        background-color: black;
+        position: fixed;
+        visibility: hidden;
+    }
+    
+    .sidebar-content h3 {
+        margin-top: 0px;
+        color: white;
+        border-bottom: 4px solid white;
+        font-size: 24px;
+    }
+    
+    .hero span a {
+        color: black;
+        text-decoration: none;
+        font-size: 48px;
+        padding: 20px;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+    
+    .hero span a:hover {
+        color: yellow;
+        background: transparent;
+        background-color: black;
+    }
+    
+    .sidebar-content a {
+        text-decoration: none;
+        color: rgb(0, 255, 0);
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 12px;
+        visibility: hidden;
+    }
+    
+    .sidebar-content a:hover {
+        border-bottom: 2px solid white;
+    }
+    
+    .hero h1 {
+        position: absolute;
+        top: 30%;
+        text-align: center;
+        font-size: 22px;
+        color: black;
+        box-shadow: 4px 4px 12px red;
+        padding: 12px;
+        border-radius: 8px;
+        margin-top: 0px;
+        background-color: rgb(0, 255, 0);
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 26px;
+        padding: 14px;
+        border-radius: 8px;
+        margin-top: 85px;
+    }
+    
+    #gallery-layout {
+        columns: 3 auto;
+        column-gap: 24px;
+    }
+    
+    #gallery-layout img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #center-color-container {
+        background-color: black;
+        
+    }
+    
+    #card-footer {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 8px;
+        margin-top: 85px;
+        gap: 20px;
+    }
+    
+    #card-1 {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: black;
+        padding: 12px;
+    }
+    
+    #card-1 h3 {
+        border-bottom: 4px solid red;
+    }
+    
+    #card-1 h3, p {
+        margin-top: 0px;
+        color: rgb(0, 255, 0);
+    }
+    
+    #card-1 a {
+        display: block;
+        text-decoration: none;
+        color: rgb(9, 250, 49);
+        padding: 12px;
+        border-radius: 24px;
+    }
+    
+    #card-1 a:hover {
+        color: yellow;
+        background-color: transparent;
+    }
+    
+    #card-2 {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(0, 255, 0);
+        padding: 12px;
+    }
+    
+    #card-2 h3 {
+        margin-top: 0px;
+        border-bottom: 4px solid black;
+    }
+    
+    #card-2 p {
+        color: black;
+    }
+    
+    #card-2 a {
+        display: block;
+        text-decoration: none;
+        color: rgb(9, 250, 49);
+        background-color: black;
+        padding: 12px;
+        border-radius: 24px;
+    }
 }

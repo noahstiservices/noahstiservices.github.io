@@ -13,7 +13,7 @@ body {
     margin: 48px auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 36px;
+    /* gap: 36px; */
     justify-content: center;
 }
 
