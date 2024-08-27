@@ -56,6 +56,21 @@ body {
     margin-top: 50px;
 }
 
+.center-column hr {
+    height: 4px;
+    background-color: red;
+}
+
+.side {
+    display: flex;
+    margin: 10px;
+    flex: 1;
+}
+
+.side p {
+    padding-right: 40px;
+}
+
 #footer {
     background: black;
     color: red;
@@ -85,24 +100,27 @@ body {
     Layout setup and configuration
 */
 #layout {
-    width: 70%;
+    width: 40%;
     margin: 48px auto;
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
 }
 
 #layout p {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 50px;
+    font-size: 18px;
 }
 
 #layout h1 {
-    text-align: center;
+    font-size: 32px;
 }
 
 #layout hr {
-    height: 5px;
+    height: 4px;
     background-color: red;
-    width: 208px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -110,6 +128,31 @@ body {
 #layout img {
     width: 40vh;
     margin-right: 20px;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-right: 80px;
+}
+
+#column hr {
+    height: 4px;
+    background-color: red;
+}
+
+#column p {
+    margin-top: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.box-content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 #flex {
