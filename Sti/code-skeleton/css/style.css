@@ -53,17 +53,24 @@ body {
 .center-column {
     width: 80vw; 
     margin: 0px auto;
+    margin-top: 50px;
 }
 
 #footer {
     background: black;
     color: red;
     padding: 12px;
+    margin-bottom: 0px;
 }
 
 #footer a {
     text-decoration: none;
     color: white;
+    transition: color 0.8s;
+}
+
+#footer a:hover {
+    color: red;
 }
 
 #footer-navbar {
@@ -71,19 +78,7 @@ body {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-}
-
-#footer-columns-navbar {
-    width: 800px;
-    margin: 0px auto;
-    padding: 48px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer-columns-navbar a {
-    display: block;
-    padding: 8px 0px;
+    padding: 26px;
 }
 
 /*
@@ -102,6 +97,14 @@ body {
 
 #layout h1 {
     text-align: center;
+}
+
+#layout hr {
+    height: 5px;
+    background-color: red;
+    width: 208px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 #layout img {
@@ -196,6 +199,7 @@ button {
     color: red;
     background-color: black;
     cursor: pointer;
+    transition: background-color 0.8s, color 0.8s;
 }
 
 button:hover {
