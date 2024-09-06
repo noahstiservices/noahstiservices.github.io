@@ -27,6 +27,10 @@ body {
     font-size: 24px;
 }
 
+#navbar a:focus {
+    color: white;
+}
+
 #navbar a:hover {
     color: white;
 }
@@ -350,6 +354,20 @@ button:hover {
     margin: 0px;
     border-radius: 24px;
     object-fit: cover;
+}
+
+.under {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+    font-weight: bold;
+    border-bottom: solid black 8px;
+}
+
+#page1 .link1, #page2 .link2, #page3 .link3,
+#page4 .link4, #page5 .link5, #page6 .link6 {
+    color: white;
 }
 
 /* Media screens */
@@ -1004,11 +1022,13 @@ button:hover {
 
 /* Media Screen 2 */
 
-@media screen and (max-width: 1880px) and (min-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+
     #navbar {
         background: black;
         display: flex;
         align-items: center;
+        justify-content: space-evenly;
         position: sticky;
         top: 0;
     }
@@ -1022,28 +1042,12 @@ button:hover {
         font-size: 24px;
     }
     
-    #navbar a:hover {
-        color: white;
-    }
-    
     #navbar p {
-        text-align: center;
-        color: red;
-        font-weight: bold;
-        font-size: 18px;
-    }
-    
-    #navbar #logo {
-        margin-right: auto;
-        transition: opacity 0.8s;
-    }
-    
-    #navbar #logo:hover {
-        opacity: 50%;
+        display: none;
     }
     
     #navbar #logo img {
-        width: 150px;
+        display: none;
     }
     
     .center-column {
@@ -1507,7 +1511,7 @@ button:hover {
 
 /* Media Screen for Navbar */
 
-@media screen and (max-width: 1098px) and (min-width: 690px) {
+@media screen and (max-width: 1200px) and (min-width: 782px) {
 
     #navbar {
         background: black;
@@ -1543,7 +1547,7 @@ button:hover {
 
 /* Media Screen 2nd for Navbar */
 
-@media screen and (max-width: 690px) and (min-width: 350px) {
+@media screen and (max-width: 798px) and (min-width: 350px) {
 
     #navbar {
         background: black;
@@ -1594,5 +1598,47 @@ button:hover {
         font-weight: 400;
         border-radius: 50px;
         margin-top: 6px;
+    }
+}
+
+/* Grid page */
+
+@media screen and (max-width: 970px) and (min-width: 730px) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 24px;
+        max-width: 1800px;
+        margin: 0px auto;
+        gap: 48px;
+    }
+    
+    #grid img {
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+        border-radius: 24px;
+        object-fit: cover;
+    }
+}
+
+/* Grid page 2 */
+
+@media screen and (max-width: 730px) and (min-width: 350px) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 24px;
+        max-width: 1800px;
+        margin: 0px auto;
+        gap: 48px;
+    }
+    
+    #grid img {
+        width: 100%;
+        height: 400px;
+        margin: 0px;
+        border-radius: 24px;
+        object-fit: cover;
     }
 }
