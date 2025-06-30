@@ -109,6 +109,7 @@ h2 {
     max-width: 1800px;
     margin: 0px auto;
     gap: 48px;
+    margin-bottom: 14%;
 }
 
 #gallery img {
@@ -391,10 +392,11 @@ h2 {
 .footer {
     text-align: center;
     background-color: burlywood;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px;
     font-size: 24px;
-    margin-top: 50px;
+    position: fixed;
+    bottom: 0vh;
+    width: 100%;
 }
 
 .footer h3 {
@@ -423,7 +425,7 @@ h2 {
 }
 
 #textarea {
-    margin: 15% 40%;
+    margin: 10% 40%;
     width: 20%;
 }
 
@@ -464,7 +466,7 @@ h2 {
 
 /* relative screen for first page */
 
-@media screen and (max-width: 1600px) and (min-width: 850px) {
+@media screen and (max-width: 1680px) and (min-width: 850px) {
     .hero {
         height: 50vh;
     }
@@ -535,6 +537,23 @@ h2 {
     #adopt a {
         font-size: 30px;
     }
+
+    #sign h1 {
+        padding: 5px;
+        font-size: 30px;
+        margin: 0px auto;
+    }
+
+    #textarea {
+        margin: 12% 40%;
+        width: 20%;
+    }
+
+    .submit {
+        font-size: 20px;
+        width: 10%;
+        margin: 0px auto;
+    }
 }
 
 @media screen and (max-width: 900px) and (min-width: 440px) {
@@ -545,6 +564,7 @@ h2 {
     .hero span {
         font-size: 26px;
         width: 30vw;
+        top: 25%;
     }
 
     #navbar-content {
@@ -614,6 +634,23 @@ h2 {
 
     .dropdown-container i {
         visibility: hidden;
+    }
+
+    #sign h1 {
+        padding: 5px;
+        font-size: 25px;
+        margin: 0px auto;
+    }
+
+    #textarea {
+        margin: 12% 40%;
+        width: 20%;
+    }
+
+    .submit {
+        font-size: 20px;
+        width: 15%;
+        margin: 0px auto;
     }
 }
 
@@ -699,6 +736,27 @@ h2 {
 
     .dropdown-container i {
         visibility: hidden;
+    }
+
+    #sign {
+        margin-top: 30%;
+    }
+
+    #sign h1 {
+        padding: 5px;
+        font-size: 18px;
+        margin: 0px auto;
+    }
+
+    #textarea {
+        margin: 14% 35%;
+        width: 30%;
+    }
+
+    .submit {
+        font-size: 18px;
+        width: 25%;
+        margin: 0px auto;
     }
 
 }
