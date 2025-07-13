@@ -109,7 +109,7 @@ h2 {
     max-width: 1800px;
     margin: 0px auto;
     gap: 48px;
-    margin-bottom: 14%;
+    margin-bottom: 8%;
 }
 
 #gallery img {
@@ -494,6 +494,7 @@ h2 {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
+        margin-bottom: 8%;
     }
 
     #gallery p {
@@ -583,6 +584,7 @@ h2 {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        margin-bottom: 15%;
     }
 
     #gallery p {
@@ -685,6 +687,7 @@ h2 {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        margin-bottom: 30%;
     }
 
     #gallery p {
