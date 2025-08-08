@@ -12,6 +12,7 @@ body {
     width: 100vw;
     height: 60vh;
     object-fit: center center;
+    filter: contrast(1.5) brightness(.9) saturate(3.0) sepia(.5);
 }
 
 #image {
