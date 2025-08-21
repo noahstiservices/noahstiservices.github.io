@@ -35,7 +35,25 @@
         <img src="images/grandpa6.jpg" alt="grandpa">
         <img src="images/grandpa7.png" alt="grandpa">
     </div>
-    <script src="js/script.js"></script>
+    <div id="upload-section">
+        <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+            <label for="photo-upload">Upload a photo:</label>
+            <input type="file" id="photo-upload" name="photo" accept="image/*" required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+    <div id="remove-section">
+        <form id="remove-form" action="/remove" method="post">
+            <label for="photo-name">Remove a photo (enter filename):</label>
+            <input type="text" id="photo-name" name="filename" placeholder="grandpa1.jpg" required>
+            <button type="submit">Remove</button>
+        </form>
+    </div>
+    <footer>
+        <p class="rights">
+            &copy; 2024 Noahsti Services. All rights reserved.
+        </p>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

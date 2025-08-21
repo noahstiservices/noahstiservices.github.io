@@ -1,0 +1,70 @@
+from flask import Flask, request, render_template_string, redirect, flash
+from werkzeug.utils import secure_filename
+import os
+
+# This is a Python Flask example that prevents users from uploading explicit images.
+# It uses the 'nudenet' library to detect explicit content in images.
+
+
+try:
+    from nudenet import NudeClassifier
+except ImportError:
+    raise ImportError("Please install nudenet: pip install nudenet")
+
+app = Flask(__name__)
+app.secret_key = 'your_secret_key'
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+classifier = NudeClassifier()
+
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
+
+HTML_FORM = '''
+<!doctype html>
+<title>Upload Image</title>
+<h1>Upload an Image</h1>
+<form method=post enctype=multipart/form-data>
+  <input type=file name=file>
+  <input type=submit value=Upload>
+</form>
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+'''
+
+@app.route('/', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        if 'file' not in request.files:
+            flash('No file part')
+            return redirect(request.url)
+        file = request.files['file']
+        if file.filename == '':
+            flash('No selected file')
+            return redirect(request.url)
+        filename = secure_filename(file.filename)
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        file.save(filepath)
+
+        # Check for explicit content
+        result = classifier.classify(filepath)
+        if result[filepath]['unsafe'] > 0.5:
+            os.remove(filepath)
+            flash('Explicit images are not allowed.')
+            return redirect(request.url)
+        flash('Image uploaded successfully!')
+        return redirect(request.url)
+    return render_template_string(HTML_FORM)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+    
