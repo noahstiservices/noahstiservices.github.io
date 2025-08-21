@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: image('images/paper-texture.jpg');
 }
 
 #heaven {
@@ -141,7 +142,7 @@ form {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 35%;
 }
 
 span {
@@ -155,6 +156,12 @@ span {
 #date {
     border-right: solid black 2px;
     padding-right: 4px;
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+    #gif {
+        width: 30vw;
+    }
 }
 
 @media (max-width: 800px) {
