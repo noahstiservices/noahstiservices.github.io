@@ -67,4 +67,55 @@ def upload_file():
 if __name__ == '__main__':
     app.run(debug=True)
 
+    @app.route('/uploads/<filename>')
+    def uploaded_file(filename):
+      return app.send_from_directory(app.config['UPLOAD_FOLDER'], filename)
+
+    @app.route('/delete/<filename>', methods=['POST'])
+    def delete_file(filename):
+      filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+      if os.path.exists(filepath):
+        os.remove(filepath)
+        flash(f'{filename} deleted successfully.')
+      else:
+        flash(f'{filename} not found.')
+      return redirect('/')
+
+    @app.context_processor
+    def inject_uploaded_files():
+      files = os.listdir(app.config['UPLOAD_FOLDER'])
+      return dict(uploaded_files=files)
+
+    # Update HTML_FORM to show uploaded images and delete buttons
+    HTML_FORM = '''
+    <!doctype html>
+    <title>Upload Image</title>
+    <h1>Upload an Image</h1>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+      <ul>
+      {% for message in messages %}
+        <li>{{ message }}</li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+    {% endwith %}
+    <h2>Uploaded Images</h2>
+    <ul>
+    {% for file in uploaded_files %}
+      <li>
+      <a href="{{ url_for('uploaded_file', filename=file) }}" target="_blank">{{ file }}</a>
+      <form action="{{ url_for('delete_file', filename=file) }}" method="post" style="display:inline;">
+        <button type="submit">Delete</button>
+      </form>
+      </li>
+    {% else %}
+      <li>No images uploaded.</li>
+    {% endfor %}
+    </ul>
+    '''
     
