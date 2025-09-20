@@ -1,4 +1,5 @@
 {
     "livePreview.defaultPreviewPath": "/projects/Obituary/index.html",
-    "python.analysis.autoImportCompletions": true
+    "python.analysis.autoImportCompletions": true,
+    "window.zoomLevel": 2
 }
