@@ -427,6 +427,7 @@ h2 {
 #textarea {
     margin: 10% 40%;
     width: 20%;
+    display: block;
 }
 
 .submit a {
@@ -638,21 +639,41 @@ h2 {
         visibility: hidden;
     }
 
+    #logo {
+        font-size: 25px;
+    }
+
+    .dropdown-container a {
+        font-size: 20px;
+    }
+
+    #link {
+        font-size: 20px;
+    }
+
+    #sign {
+        margin-top: 6%;
+    }
+
     #sign h1 {
         padding: 5px;
-        font-size: 25px;
+        font-size: 18px;
         margin: 0px auto;
     }
 
     #textarea {
-        margin: 12% 40%;
+        margin: 5% auto;
         width: 20%;
     }
 
     .submit {
         font-size: 20px;
-        width: 15%;
+        width: 20%;
         margin: 0px auto;
+    }
+
+    .footer {
+        font-size: 18px;
     }
 }
 
@@ -674,12 +695,17 @@ h2 {
         align-items: center;
     }
 
+    #logo {
+        font-size: 25px;
+    }
+
     h2 {
         margin-top: 24px;
     }
 
     #link {
         margin-left: -20px;
+        font-size: 16px;
     }
 
     #gallery {
@@ -741,8 +767,12 @@ h2 {
         visibility: hidden;
     }
 
+    .dropdown-container a {
+        font-size: 18px;
+    }
+
     #sign {
-        margin-top: 30%;
+        margin-top: 12%;
     }
 
     #sign h1 {
@@ -752,7 +782,7 @@ h2 {
     }
 
     #textarea {
-        margin: 14% 35%;
+        margin: 5% auto 0px;
         width: 30%;
     }
 
@@ -760,6 +790,10 @@ h2 {
         font-size: 18px;
         width: 25%;
         margin: 0px auto;
+    }
+
+    .footer {
+        font-size: 16px;
     }
 
 }
