@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  margin: 0px auto 18px auto;
+}
+
+ul li {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ol li {
+  margin-bottom: 8px;
+  box-shadow: green 1px 2px 8px;
+  padding: 8px;
+  margin-right: 4px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#pizza-rates {
+  text-align: center;
+}
+
+#pizza-img {
+  display: flex;
+  margin-right: 0px;
+  padding-bottom: 6px;
+  border-bottom: solid black 2px;
+}
+
+#pizza-img img {
+  flex-direction: row;
+  width: 50%;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+h4 span {
+  text-align: center;
+  border-bottom: solid black 2px;
+}
+
+#ingredients {
+  display: flex;
+  flex-direction: column;
+}
+
+#chicken-rates {
+  text-align: center;
+}
+
+#chicken-img {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: solid black 2px;
+  margin: 0px;
+}
+
+#chicken-img img {
+  flex-direction: row;
+  width: 50%;
+  margin-left: 12px;
+  margin-right: 0px;
+}
+
+#honey-rates {
+  text-align: center;
+}
+
+#honey-img {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: solid black 2px;
+  margin: 0px;
+}
+
+#honey-img img {
+  flex-direction: row;
+  width: 50%;
+  margin-left: 12px;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 250px) {
+  ul {
+    flex-direction: column;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+  }
+
+  #pizza-rates {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #chicken-rates {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #honey-rates {
+    display: flex;
+    flex-direction: column;
+  }
+}
