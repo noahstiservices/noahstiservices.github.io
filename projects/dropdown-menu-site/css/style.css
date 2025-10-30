@@ -74,7 +74,7 @@ body {
     color: #5ea3b3;
 }
 
-#link {
+.link {
     font-size: 24px;
     font-weight: bold;
     font-family: "Rambla", sans-serif;
@@ -576,7 +576,7 @@ h2 {
         align-items: center;
     }
 
-    #link {
+    .link {
         margin-left: -20px;
     }
 
@@ -647,7 +647,7 @@ h2 {
         font-size: 20px;
     }
 
-    #link {
+    .link {
         font-size: 20px;
     }
 
@@ -703,7 +703,7 @@ h2 {
         margin-top: 24px;
     }
 
-    #link {
+    .link {
         margin-left: -20px;
         font-size: 16px;
     }

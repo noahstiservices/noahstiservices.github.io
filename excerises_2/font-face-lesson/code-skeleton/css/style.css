@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* When you download a font use this type of code for this purpose! */
+@font-face {
+    src: url("Corleone.tff");
+    /* Can choose whatever name you want for the font-family in this case! */
+    font-family: godfather;
+}
+
+h1 {
+    font-family: godfather;
+    text-align: center;
+}
