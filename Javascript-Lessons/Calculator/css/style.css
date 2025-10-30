@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+button {
+    margin: 20px 10px;
+}
+
+#num1-el {
+    border-bottom: 2px solid black;
+}
+
+#num2-el {
+    border-bottom: 2px solid black;
+}
+
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}

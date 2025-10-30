@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif, color;
+}
+
+@font-face {
+    src: url("light-led-board-7.regular.ttf");
+    font-family: color;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    border: solid 4px black;
+    max-width: 500px;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    border: solid black 4px;
+    padding: 4px;
+    font-family: color;
+}
+
+p {
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+p {
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.btn button {
+    padding: 8px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.81);
+    border: none;
+    color: white;
+    font-size: 20px;
+}
