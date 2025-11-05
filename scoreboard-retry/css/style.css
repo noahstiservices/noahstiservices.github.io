@@ -13,13 +13,13 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 500px;
     display: flex;
     text-align: center;
     margin: 20px auto;
     justify-content: space-between;
     border: solid 4px orange;
-    padding: 10px;
+    padding: 24px 42px;
     border-radius: 24px;
     background-color: orange;
     margin-top: 150px;
