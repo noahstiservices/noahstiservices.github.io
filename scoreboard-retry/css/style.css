@@ -53,4 +53,10 @@ button {
     padding: 4px;
     font-size: 18px;
     font-family: score;
+    border-bottom: 2px solid white;
+}
+
+button:hover {
+    color: red;
+    cursor: pointer;
 }
