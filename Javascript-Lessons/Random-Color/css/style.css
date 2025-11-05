@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+button {
+    text-align: center;
+    margin: 25pc auto;
+    display: block;
+}

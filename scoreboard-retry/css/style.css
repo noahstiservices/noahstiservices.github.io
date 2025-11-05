@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+@font-face {
+    src: url("Crashed Scoreboard.ttf");
+    font-family: score;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    text-align: center;
+    margin: 20px auto;
+    justify-content: space-between;
+    border: solid 4px orange;
+    padding: 10px;
+    border-radius: 24px;
+    background-color: orange;
+}
+
+h3 {
+    border: 2px black solid;
+    background-color: white;
+    box-shadow: 1px 6px 10px black;
+}
+
+p {
+    font-size: 32px;
+    background-color: black;
+    padding: 30px;
+    padding-bottom: 38px;
+    margin-left: 2px;
+    color: red;
+    font-family: score;
+    text-align: center;
+    align-items: center;
+}
+
+span {
+    margin-top: 214px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 18px;
+    font-family: score;
+}
