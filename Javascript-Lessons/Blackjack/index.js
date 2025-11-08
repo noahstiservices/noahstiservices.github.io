@@ -12,6 +12,22 @@ let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 console.log(cards)
 
+let player = {
+  name: "Noah",
+  chips: 145,
+  sayHello: function () {
+    console.log("Hello")
+  }
+}
+
+player.sayHello()
+
+let playerName = "Noah"
+let playerChips = 145
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.chips
+
 function getRandomCard() {
   let randomCardNumber = Math.floor(Math.random() * 13) + 1
   if (randomCardNumber > 10) {
