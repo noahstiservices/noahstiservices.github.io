@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>My little Calculator</h1>
+        <form id="form">
+            <label for="num1">First Number</label>
+            <input type="number" name="num1" id="num1" placeholder="0" />
+
+            <label for="num2">Second number</label>
+            <input type="number" name="num2" id="num2" placeholder="0" />
+
+            <button type="submit" id="btn-add" onclick="add()">Add numbers</button>
+            <button type="submit" id="btn-subtract" onclick="subtract()">
+                Subtract numbers</button>
+            <button type="submit" id="btn-multiply" onclick="multiply()">
+                Multiply numbers
+            </button>
+            <button type="submit" id="btn-divide" onclick="divide()">
+                Divide numbers
+            </button>
+        </form>
+        <h2 id="result"></h2>
+    </main>
+    <script src=index.js></script>
+</body>
+
+</html>
