@@ -12,7 +12,7 @@ h1 {
 }
 
 main {
-    border: 2px black solid;
+    border: 6px black solid;
     max-width: 350px;
     margin: 20px auto;
     background-color: aquamarine;
@@ -25,10 +25,18 @@ main {
 
 label {
     margin-bottom: 6px;
-    margin-top: 10px;
     color: blue;
     text-align: left;
     font-weight: bold;
+    font-size: 20px;
+}
+
+span {
+    border-bottom: solid 3px black;
+}
+
+#second {
+    margin-top: 10px;
 }
 
 input::-webkit-outer-arrow-button,
@@ -42,6 +50,7 @@ input[type=number] {
 input {
     border: blue solid;
     border-radius: 4px;
+    font-size: 18px;
 }
 
 button {
@@ -56,4 +65,20 @@ button {
 #form {
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 4px 12px 4px rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    border: 0px solid transparent;
+    transition: border-width 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    color: blue;
+    padding: 6px 12px;
+}
+
+.animated-border {
+    border: 5px solid blue;
+    border-radius: 8px;
+    /* Or any desired animated border style */
 }

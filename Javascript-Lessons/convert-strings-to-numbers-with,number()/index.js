@@ -22,6 +22,7 @@ form.addEventListener("submit", function (e) {
   console.log(
     `numTwoVal is of type: ${typeof numTwoVal}, with a value of ${numTwoVal}`);
   // if we add 2 numbers together, they concatinate, which is not what we want. We need to convert them to numbers
+
 })
 
 function add() {
@@ -49,6 +50,7 @@ function divide() {
   const numOneVal = Number(numOneInput.value);
   const numTwoVal = Number(numTwoInput.value);
 
-  resultText.innerText = `${numOneVal} / ${numTwoVal} = ${numOneVal / numTwoVal}`;
+  resultText.innerText = `${numOneVal} / ${numTwoVal} = ${numOneVal / numTwoVal}`
 }
+
 
