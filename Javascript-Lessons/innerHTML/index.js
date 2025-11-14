@@ -1,5 +1,4 @@
 const containerEl = document.getElementById("container")
-
 containerEl.innerHTML = "<button onclick='buy()'>Buy!</button>"
 
 function buy() {

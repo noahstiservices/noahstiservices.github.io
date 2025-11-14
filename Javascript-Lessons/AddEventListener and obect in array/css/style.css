@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+button {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 30px;
+    margin-top: 80px;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+}
