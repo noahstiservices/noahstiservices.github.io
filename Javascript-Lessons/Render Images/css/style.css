@@ -5,4 +5,18 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    text-align: center;
+}
+
+.image-area {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: fill;
+    margin: 0 12px;
+}
+
+p {
+    font-size: 26px;
+    font-weight: bold;
 }

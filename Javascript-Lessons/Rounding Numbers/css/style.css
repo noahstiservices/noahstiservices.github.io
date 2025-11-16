@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+button {
+    display: block;
+    text-align: center;
+    margin: 24px auto;
+    font-size: 24px;
+    padding: 8px 24px;
+}

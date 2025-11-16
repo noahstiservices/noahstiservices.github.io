@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+#top-content {
+    background-color: rgb(136, 43, 152);
+    height: 400px;
+    padding: 12px;
+    margin: 5px 24px;
+    border-radius: 10px;
+}
+
+#input-number {
+    width: 12%;
+    height: 28%;
+    font-size: 55px;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid lightblue 2px;
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+}
+
+#input-number:focus {
+    outline: none;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    display: flex;
+    margin: 5% auto;
+    font-size: 36px;
+    color: rgb(136, 43, 152);
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    transition: all 1s;
+}
+
+#row {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: kembra;
+    src: url("Kembara-Regular.ttf");
+}
+
+p {
+    color: rgb(136, 43, 152);
+    padding: 8px;
+    font-size: 18px;
+    font-family: kembra;
+}
+
+p:not(:last-child) {
+    border-right: solid black 2px;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(199, 146, 219);
+}
+
+@media screen and (max-width: 1006px) and (min-width: 440px) {
+    #top-content {
+        height: 300px;
+    }
+
+    #input-number {
+        width: 30%;
+        height: 28%;
+        font-size: 45px;
+    }
+
+    button {
+        font-size: 24px;
+    }
+
+    #row {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
