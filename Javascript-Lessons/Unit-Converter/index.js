@@ -5,14 +5,14 @@
 */
 
 
-const covertBtn = document.getElementById("convert-btn");
-let metersConv = document.getElementById("meters-conv");
-let feetConv = document.getElementById("feet-conv");
-let literConv = document.getElementById("liter-conv");
-let gallonConv = document.getElementById("gallon-conv");
-let kilogramConv = document.getElementById("kilograms-conv");
-let poundsConv = document.getElementById("pounds-conv");
-let inputNumber = document.getElementById("input-number");
+const covertBtn = document.getElementById("convert-btn")
+let metersConv = document.getElementById("meters-conv")
+let feetConv = document.getElementById("feet-conv")
+let literConv = document.getElementById("liter-conv")
+let gallonConv = document.getElementById("gallon-conv")
+let kilogramConv = document.getElementById("kilograms-conv")
+let poundsConv = document.getElementById("pounds-conv")
+let inputNumber = document.getElementById("input-number")
 meters = inputNumber * 3.281;
 length = inputNumber * .3048;
 
